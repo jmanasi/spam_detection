@@ -1,4 +1,6 @@
-require("dotenv").config({ path: __dirname + "/.env" });
+// require("dotenv").config({ path: __dirname + "/.env" });
+require("dotenv").config();
+// rest of your code
 
 let logger = require("./logger").LoggerModel;
 let constant = require("./constant");
