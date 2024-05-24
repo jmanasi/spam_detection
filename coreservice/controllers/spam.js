@@ -8,7 +8,8 @@ const requestModel = require("../models/request");
 const responseModel = require("../models/response");
 const spamService = require("../services/spam");
 const validate = require("../utils/validate");
-require("dotenv").config({ path: __dirname + "/.env" });
+// require("dotenv").config({ path: __dirname + "/.env" });
+require("dotenv").config();
 
 const teamController = {
   getAllSpamContacts: async (req, res) => {

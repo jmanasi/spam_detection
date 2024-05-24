@@ -1,5 +1,5 @@
-require("dotenv").config({ path: __dirname + "./.env" });
-
+// require("dotenv").config({ path: __dirname + "./.env" });
+require("dotenv").config();
 // const applib = require("applib");
 const applib = require("../../applib");
 const jwt = require("jsonwebtoken");

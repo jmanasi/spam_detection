@@ -8,7 +8,8 @@ const requestModel = require("../models/request");
 const responseModel = require("../models/response");
 const contactService = require("../services/contact");
 const validate = require("../utils/validate");
-require("dotenv").config({ path: __dirname + "/.env" });
+// require("dotenv").config({ path: __dirname + "/.env" });
+require("dotenv").config();
 
 const teamController = {
   getAllContacts: async (req, res) => {
