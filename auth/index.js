@@ -7,8 +7,10 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 // project packages
-const appLib = require("applib");
-const middleware = require("middleware");
+// const appLib = require("applib");
+const appLib = require("../applib");
+// const middleware = require("middleware");
+const middleware = require("../middleware");
 
 //project constants
 const logger = new appLib.Logger(null);

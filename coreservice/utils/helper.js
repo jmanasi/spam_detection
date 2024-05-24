@@ -1,4 +1,5 @@
-const applib = require("applib");
+// const applib = require("applib");
+const applib = require("../../applib");
 
 module.exports.response = (functionContext, responseObj, resolvedResult) => {
   const logger = functionContext.logger;

@@ -1,5 +1,6 @@
 const router = require("express").Router();
-const applib = require("applib");
+// const applib = require("applib");
+const applib = require("../../applib");
 
 // controllers
 const contactController = require("../controllers/contact");

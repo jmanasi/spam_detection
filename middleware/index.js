@@ -1,4 +1,5 @@
-const appLib = require("applib");
+// const appLib = require("applib");
+const appLib = require("../applib");
 const logger = new appLib.Logger(null);
 const validateModel = require("./model/requestModel/validate");
 const errorModel = require("./model/requestModel/error").ErrorModel;

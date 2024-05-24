@@ -1,6 +1,7 @@
 require("dotenv").config({ path: __dirname + "./.env" });
 
-const applib = require("applib");
+// const applib = require("applib");
+const applib = require("../../applib");
 const jwt = require("jsonwebtoken");
 
 module.exports.response = (functionContext, responseObj, resolvedResult) => {

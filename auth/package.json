@@ -11,14 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "applib": "file:../applib/applib-1.0.0.tgz",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "joi": "^17.13.1",
     "knex": "^3.1.0",
-    "middleware": "file:../middleware/middleware-1.0.0.tgz",
     "moment-timezone": "^0.5.45",
     "mysql2": "^3.9.7",
     "nodemon": "^3.1.0"
