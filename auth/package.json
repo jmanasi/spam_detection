@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000",
-    "start": "node index.js",
-    "build": "cd applib && npm install && cd ../auth && npm install && cd ../middleware && npm install"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",

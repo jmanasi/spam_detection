@@ -1,5 +1,5 @@
 // require("dotenv").config({ path: __dirname + "/.env" });
-require("dotenv").config();
+// require("dotenv").config();
 // rest of your code
 
 let logger = require("./logger").LoggerModel;
@@ -54,7 +54,8 @@ module.exports.validateToken = async (req, res, next) => {
     }
 
     // Verify the token
-    jwt.verify(token, process.env.JWT_SECRET_KEY);
+    // jwt.verify(token, process.env.JWT_SECRET_KEY);
+    jwt.verify(token, "s@1R099m@<24");
 
     next();
   } catch (error) {
